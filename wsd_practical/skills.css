@@ -1,0 +1,57 @@
+/* Styling for the header */
+header {
+    background-color: #f8f4f4; /* Change this to your desired background color */
+    color: #000000; /* Change this to your desired text color */
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Style the navigation list items */
+.navlist li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Style the navigation links */
+.navlist a {
+    color: #000000; /* Change this to your desired link color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Style the logo link */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Add hover effect to navigation links */
+.navlist a:hover {
+    color: #ff8c00; /* Change this to your desired hover color */
+}
+
+/* Style the "Want to Talk?" button */
+.btn {
+    background-color: #ff8c00; /* Change this to your desired button background color */
+    color: #fff; /* Change this to your desired button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Add hover effect to the button */
+.btn:hover {
+    background-color: #ff6b00; /* Change this to your desired hover background color */
+}
+.jumbotron {
+    padding: 150px 0;
+    background-color: grey; /* Remove background color */
+    margin-bottom: 0; /* Remove default margin */
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+}
